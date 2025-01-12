@@ -1,5 +1,6 @@
 from typing import List
 
+''' Python3 '''
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         # Гарантируем, что nums1 — меньший массив
@@ -38,7 +39,7 @@ class Solution:
 nums1 = [1, 5, 6, 7]
 nums2 = [2, 3, 4]
 solve = Solution()
-print(format(solve.findMedianSortedArrays(nums1, nums2), '.5f'))  # Вывод: 4.0
+print(format(solve.findMedianSortedArrays(nums1, nums2), '.5f'))  # Вывод: 4.00000
 
 
 # class Solution(object):
