@@ -22,9 +22,9 @@ public:
         }
         int sdvig = k % i;
         if (sdvig == 0) return head;
-        cout << "i = " << i << "; sdvig = " << sdvig << endl;
+        std::cout << "i = " << i << "; sdvig = " << sdvig << std::endl;
         ListNode* newHead = pointers[i-sdvig];
-        cout << "newHead_val = " << newHead->val << endl;
+        std::cout << "newHead_val = " << newHead->val << std::endl;
         pointers[i-1]->next = head;
         pointers[i-sdvig-1]->next = nullptr;
         
